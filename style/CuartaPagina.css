@@ -50,3 +50,19 @@ p{
 #zungon{
     padding-top: 10%;
 }
+
+@media(max-width: 740px){
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+    img{
+        width: 100%;
+    }
+    h1{
+        font-size: 300%;
+        margin-top: 5%;
+        color: rgb(194, 161, 161);
+    }
+}
