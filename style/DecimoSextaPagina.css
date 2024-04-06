@@ -1,0 +1,108 @@
+body{
+    background-image: url(/images/paginadeciceis/AI\ image\ -\ OpenAI.png);  
+    height:100%;  
+    background-color: #09212C;
+    background-repeat: no-repeat;
+    background-position-x:  100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    padding: 3%;
+    background-color: #00000030;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 19.5%;
+    left: 17%;
+    width: 30%;
+    height: 43%;
+    border-radius: 30px;
+}
+.tabla{
+    background-color: #00000030;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    width: 66%;
+    height: 17%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    align-items: center;
+}
+h1{
+    font-size: 370%;
+    margin-top: 4%;
+}
+.texto p{
+    font-size: 160%;
+}
+button{
+    margin-top: 4%;
+    color: black;
+    background-color: #63E1E1;
+    font-size: 170%;
+    padding: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border: none;
+    border-radius: 40px;
+}
+h2{
+    margin: 0%;
+    margin-top: 1%;
+}
+.tabla p{
+    margin: 0%;
+    margin-top: 3%;
+}
+
+@media(max-width: 740px){
+    body{
+        background-image: url(/images/paginadeciceis/AI\ image\ -\ OpenAI.png);  
+        height:100%;  
+        background-color: #09212C;
+        background-repeat: no-repeat;
+        background-position-x:  50%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .texto{
+        padding: 3%;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        width: 90%;
+        height: 30%;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 200%;
+    }
+    .texto p{
+        font-size: 110%;
+    }
+    button{
+        font-size: 80%;
+    }
+    .tabla{
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        width: 96%;
+        height: 58%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        border-style: none;
+        align-items: center;
+    }
+}
