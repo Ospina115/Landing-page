@@ -1,0 +1,104 @@
+body{
+    background-color: #080C15;
+    padding: 15%;
+    padding-top: 5%;
+    background-image: url(/images/paginaventiseis/unsplash_T8SD7bwyxHU.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+span{
+    color: #CD292A;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin-left: 26px;
+}
+.imagenes img{
+    margin-left: -25px;
+}
+.texto p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+button{
+    background-color: #CD292A;
+    color: white;
+    font-size: 25px;
+    border: none;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.tabla{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1340px;
+}
+.tabla h2{
+    width: 350px;
+    padding: 35px;
+    border-radius: 60px 0 0 60px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
+    filter: drop-shadow(0px 3px 3px #080C15);
+}
+
+@media(max-width: 740px){
+    body{
+        padding: 0%;
+        background-size: contain;
+        background-position-y: 140%;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .imagenes{
+        display: flex;
+        width: 350px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texto p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    button{
+        background-color: #CD292A;
+        color: white;
+        font-size: 18px;
+        border: none;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        margin-top: 5px;
+    }
+    .tabla{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 414px;
+    }
+    .tabla h2{
+        width: 350px;
+        padding: 15px;
+        border-radius: 20px 0 0 20px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
+        filter: drop-shadow(0px 3px 3px #080C15);
+        margin: 5px;
+        margin-left: 0px;
+    }
+}
