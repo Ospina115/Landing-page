@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+    padding-top: 2%;
+}
+.principal{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+span{
+    color: #E3B632;
+}
+hr{
+    width: 600px;
+    height: 2px;
+    background-color: black;
+    margin-left: 0%;
+}
+p{
+    font-size: 32px;
+}
+button{
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: #E3B632;
+}
+.tabla{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+}
+.tabla p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.tabla img{
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cadauna{
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+@media(max-width: 740px){
+    body{
+        padding: 0%;
+    }
+    .principal{
+        position: absolute;
+        top: 600px;
+        left: 30px;
+        height: 400px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .texto p{
+        font-size: 20px;
+        width: 400px;
+    }
+    button{
+        font-size: 15px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: #E3B632;
+    }
+    .tabla{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        margin-top: 20px;
+    }
+    .tabla p{
+        font-size: 15px;
+    }
+    .tabla img{
+        margin-top: 1px;
+    }
+    .cadauna{
+        background-color: #242424;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    hr{
+        width: 300px;
+    }
+}
