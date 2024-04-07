@@ -1,0 +1,162 @@
+body{
+    background-color: #EFC356;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.perrogrande{
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+.patarotada{
+    position: absolute;
+    top: -50px;
+    transform: rotate(50deg);
+    right: 90px;
+}
+.patanormal{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+.logo{
+    position: absolute;
+    top: 100px;
+    left: 970px;
+}
+.perroblanco{
+    position: absolute;
+    top: 580px;
+    right: 200px;
+}
+.sombra{
+    position: absolute;
+    top: 580px;
+    right: 250px;
+}
+.texto{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: #7EB5E1;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.tabla{
+    background-color: #efeeee;
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 820px;
+    border-radius: 40px;
+}
+.cadauno{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 40px 20px;
+}
+.cadauno p{
+    margin: 0%;
+    font-size: 15px;
+}
+h2{
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.cadauno div{
+    margin-left: 20px;
+}
+
+@media(max-width: 740px){
+    .perrogrande{
+        top: 0px;
+        right: 0px;
+        height: 300px;
+    }
+    .patarotada{
+        top: -50px;
+        transform: rotate(0deg);
+        right: 0px;
+    }
+    .patanormal{
+        top: 400px;
+        left: 0px;
+    }
+    .logo{
+        top: 0px;
+        left: 50px;
+        height: 150px;
+    }
+    .perroblanco{
+        top: 160px;
+        right: 250px;
+        height: 120px;
+    }
+    .sombra{
+        height: 0;
+    }
+
+
+    .texto{
+        top: 270px;
+        left: 20px;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 0%;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+
+    .tabla{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 360px;
+        margin-top: 680px;
+        border-radius: 40px;
+    }
+    .cadauno{
+        display: flex;
+        align-items: center;
+        color: black;
+        padding: 40px 20px;
+    }
+    .cadauno p{
+        margin: 0%;
+        font-size: 15px;
+    }
+    h2{
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+    .cadauno div{
+        margin-left: 20px;
+    }
+}
