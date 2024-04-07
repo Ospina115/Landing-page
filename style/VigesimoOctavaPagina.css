@@ -1,0 +1,112 @@
+body{
+    padding: 10%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arriba{
+    display: flex;
+    flex-direction: row;
+}
+.tabla{
+    display: flex;
+    flex-direction: row;
+}
+.tabla .cadauno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+    margin-top: 0%;
+    margin-left: 0px;
+}
+h1{
+    font-size: 75px;
+    margin-top: 0;
+    margin-right: 90px;
+}
+.texto p{
+    font-size: 23px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+.hola{
+    position: absolute;
+    top: 83%;
+    color: white;
+}
+.abajo .cadauno{
+    display: flex;
+    justify-content: center;
+}
+.arriba .cadauno div{
+    margin-left: 30px;
+}
+h2{
+    margin: 0%;
+}
+.arriba .cadauno p{
+    margin: 0%;
+    margin-top: 3px;
+}
+
+@media(max-width: 740px){
+    body{
+        padding: 0%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .arriba p{
+        font-size: 20px;
+        margin: 0%;
+    }
+
+    .arriba{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabla{
+        display: flex;
+        flex-direction: row;
+    }
+    .tabla .cadauno{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px;
+        margin-top: 0%;
+        margin-left: 0px;
+    }
+    button{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding: 12px;
+        border-radius: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 20px auto;
+    }
+    .tabla img{
+        height: 50px;
+    }
+    .tabla p{
+        font-size: 15px;
+    }
+    .abajo{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .abajo p{
+        font-size: 0px;
+    }
+}
