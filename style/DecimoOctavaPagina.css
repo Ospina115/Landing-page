@@ -3,7 +3,7 @@ body{
 }
 .galeria{
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 17%;
     padding-bottom: 2%;
 }
@@ -27,8 +27,73 @@ body{
 }
 h1{
     font-size: 400%;
+    margin-bottom: 5%;
 }
 p{
     font-size: 140%;
     margin-top: 0%;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: 90%;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.derecha{
+    position: absolute;
+    right: 17%;
+    top: 80%;
+}
+.izquiera{
+    position: absolute;
+    left: 17%;
+    top: 43%;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+@media(max-width: 740px){
+    body{
+        padding: 0%;
+    }
+    .galeria{
+        position: absolute;
+        top: 75%;
+        left: 0%;
+        padding-bottom: 2%;
+        height: 190px;
+    }
+    .revez{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    
+    }
+    .derecho{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        rotate: 0deg;
+    }
+    .texto{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+    }
+    .derecha{
+        position: absolute;
+        right: 17%;
+        top: 100%;
+    }
+    .izquiera{
+        position: absolute;
+        left: 17%;
+        top: 100%;
+    }
 }
