@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background: rgb(255,255,255);
@@ -31,6 +32,15 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+#site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #21212e;
+    box-shadow: 0 2px 4px #000000;
 }
 .nav__links{
     list-style: none;
@@ -88,12 +98,6 @@ button:focus:hover{
 
 /* HOLA HASTA AQUI VA LO DE LAS IMAGENES */
 
-.socio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-}
 
 h2{
     width: 100%;
@@ -102,6 +106,7 @@ h2{
     color: rgb(63, 228, 214);
     font-size: 50px;
     margin: 40px;
+    margin-left: 0;
     margin-bottom: 0;
 }
 .samuel{
@@ -125,11 +130,22 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
-.socio{
-    display: flex;
-    flex-direction: row;
+h3{
+    font-size:200%;
+}
+
+.red{
+    display:flex;
+    flex-direction:row;
+}
+
+.cuadro{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
 }
