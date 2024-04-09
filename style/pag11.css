@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 700px;   
+}
+
+h1{
+    font-size: 450%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.letras{
+    font-size: 160%;
+    letter-spacing: 1px;
+    color: #252525b9;
+    margin-bottom: 60px;
+}
+
+a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 100px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    background-color:black ;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.bloques{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.icon{
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 300%;
+}
+
+.letra{
+    margin-top: 20px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:600px){
+    .principal{
+        margin: 20px;
+        padding: 0;
+    }
+
+    .centrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content{
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .image{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .list{
+        width: 100%;
+        padding: 0
+        ;
+    }
+
+    .bloques{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido{
+        margin: 20px;
+    }
+
+    h2{
+        font-size: 150%;
+    }
+
+    .letra{
+        font-size: 75%;
+    }
+
+    .icon{
+        width: 10%;
+    }
+}
+

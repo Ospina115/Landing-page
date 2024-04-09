@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E8D9D6;
+    margin: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bloque1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    position: relative;
+    left: 10%;
+}
+
+.vaso{
+    position: absolute;
+    right: 10%;
+}
+
+.vago1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.vago2{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.planta{
+    position: absolute;
+    left: 40%;
+    top:30%;
+}
+
+.coffe{
+    position: absolute;
+    left: 25%;
+}
+
+
+
+h1{
+    font-size: 1100%;
+    margin-bottom: 20px;
+}
+
+.letras{
+    color: #271908;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.cuadrar{
+    margin-left: 0px;
+}
+
+a{
+    background-color: #271908;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.bloque2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.bloque3{
+    background-color: #FFFDFC;
+    padding-right: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+}
+.bloque4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+    .bloque1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content{
+        margin-top: 30px;
+    }
+    .bloque2{
+        width: 100%;
+        flex-direction: column;
+    }
+    body{
+        margin: 0;
+    }
+}

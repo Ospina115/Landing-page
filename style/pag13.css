@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    margin: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columna{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 40px;
+    
+}
+
+.columna2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.columna3{
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+h2{
+    font-size: 200%;
+    color: #25252567;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15px;
+}
+
+.letra{
+    font-size: 200%;
+}
+
+.photo{
+    width: 120%;
+}
+
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+h1{
+    text-align: center;
+    font-size: 600%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.letras{
+    font-size: 150%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 100px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+}
+
+.explosion{
+    margin-left: 50%;
+}
+
+.party{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left:200px ;
+}
+
+.estrella{
+    width: 14%;
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+.estrella2{
+    width: 11%;
+    position: absolute;
+    bottom: 3%;
+    right: 19%;
+}
+@media screen and (max-width: 600px){
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .columna2{
+        margin-top: 500%;
+        position: relative;
+        
+    }
+    .fondo{
+        margin-top:-600px;
+        position:absolute;
+        width: 500%;
+
+    }
+    .text{
+        position: relative;
+        top: 33%;
+        right: 33%;
+    }
+    
+}

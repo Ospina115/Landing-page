@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+}
+
+body{
+    margin: 70px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 0;
+}
+
+.bloque{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.letras{
+    width: 70%;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+.photo{
+    display: flex;
+    width: 100%;
+    align-items: cnter;
+    justify-content: center;
+}
+
+a{
+    background-color: rgb(127, 127, 127);
+    display: flex;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;
+    width: 20%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro{
+    background-color: #F1C2B0;
+    padding: 40px;
+    border-radius: 10px;
+    width: 12%;
+    padding-right:70px ;
+    padding-left: 70px;
+}
+
+.cuadro1{
+    background-color: #F9EB98;
+    padding: 40px;
+    border-radius: 10px;
+    width: 12%;
+    padding-right:70px ;
+    padding-left: 70px;
+}
+
+.cuadro2{
+    background-color: #C0D9DD;
+    padding: 40px;
+    border-radius: 10px;
+    width: 12%;
+    padding-right:70px ;
+    padding-left: 70px;
+}
+
+.cuadro3{
+    background-color: #6975E8;
+    padding: 40px;
+    border-radius: 10px;
+    width: 12%;
+    padding-right:70px ;
+    padding-left: 70px;
+}
+
+
+h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lotre{
+    width: 100%;
+    font-size: 20px;
+}
+
+.foto{
+    position: absolute;
+    left: 470px;
+    bottom: 240px;
+}
+.foto1{
+    position: absolute;
+    left: 900px;
+    bottom: 240px;
+}
+.foto2{
+    position: absolute;
+    left: 1330px;
+    bottom: 240px;
+}
+.foto3{
+    position: absolute;
+    left: 1760px;
+    bottom: 240px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 00px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foto{
+        position: relative;
+        left: 5cqw;
+        bottom: 0px;
+        width: 15px;
+    }
+    .foto1{
+        position: relative;
+        left: 50px;
+        bottom: 0px;
+        width: 15px;
+    }
+    .foto2{
+        position: relative;
+        left: 50px;
+        bottom: 0px;
+        width: 15px;
+    }
+    .foto3{
+        position: relative;
+        left: 50px;
+        bottom: 0px;
+        width: 15px;
+    }
+
+    .photo{
+        margin-top: 40px;
+        width: 70%;
+    }
+
+    .container2{
+        justify-content: space-between;
+    }
+
+    .hola{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .letras{
+        font-size: 20px;
+    }
+
+    a{
+        width: 50%;
+    }
+
+    .cuadro{
+        background-color: #F1C2B0;
+        padding: 8px;
+        border-radius: 10px;
+        width: 10%;
+        padding-right:20px ;
+        padding-left: 20px;
+    }
+    
+    .cuadro1{
+        background-color: #F9EB98;
+        padding: 8px;
+        border-radius: 10px;
+        width: 10%;
+        padding-right:20px ;
+        padding-left: 20px;
+    }
+    
+    .cuadro2{
+        background-color: #C0D9DD;
+        padding: 8px;
+        border-radius: 10px;
+        width: 10%;
+        padding-right:20px ;
+        padding-left: 20px;
+    }
+    
+    .cuadro3{
+        background-color: #6975E8;
+        padding: 8px;
+        border-radius: 10px;
+        width: 10%;
+        padding-right:20px ;
+        padding-left: 20px;
+    }
+    
+    h2{
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    h3{
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .lotre{
+        width: 100%;
+        font-size: 10px;
+    }
+}
+

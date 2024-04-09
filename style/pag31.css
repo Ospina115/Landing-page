@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/IMAGES/pag31/mesh-gradient\ \(2\)\ 2.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+h1{
+    margin-top: 8%;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+.prncipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.pp{
+    width: 100%;
+    margin-left: 15%;
+}
+
+.letras{
+    font-size: 130%;
+    margin-bottom: 3%;
+}
+
+a{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+
+.photo{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+    width: 24%;
+}
+
+.aro{
+    position: absolute;
+    top:6.5%;
+    right: 14%;
+    width: 28%;
+}
+
+.estrella{
+    position: absolute;
+    top:10%;
+    right: 35.4%;
+    
+}
+
+.estrella2{
+    position: absolute;
+    right: 13%;
+    color: black;  
+    top: 63%;
+}
+
+.container2{
+    padding: 0%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    width: 55%;
+    margin-left: 10%;
+}
+
+.photo2{
+    margin-bottom: 10px;
+}
+
+.container3{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+@media only screen and (max-width:  600px) {    
+    .prncipal{
+        flex-direction: column;
+    }
+    .imges{
+        position: relative;
+        height: auto;
+        left: -20%;
+        margin-top: 20px;
+    }
+    h1{
+        margin-top: 2%;
+        font-size: 300%;
+        margin-bottom: 3%;
+    }
+    .letras{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .pp{
+        margin-left: 5%;
+    }
+    a{
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    .container2{
+        width: 100%;
+        margin: 0;
+        margin-top: 180px;
+    }
+    .estrella2{
+        position: absolute;
+        width: 10%;
+        right: 11%;
+        top:100px;
+    }
+    .aro{
+        top: -10px;
+    }
+    .estrella{
+        width: 13%;
+        left: 51%;
+    }
+}

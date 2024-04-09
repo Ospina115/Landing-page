@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    display: flex;
+    margin: 80px;
+    margin-bottom: 0;
+}
+
+.container1{
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 500%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.letras{
+    font-size: 210%;
+    margin-bottom: 40px;
+}
+
+a{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+
+.box{
+    margin: 50px;
+    border: 2px solid;
+    margin-left: 0;
+    padding: 20px;
+    box-shadow: 7px 10px 2px rgba(0, 0, 0, 0.7);
+    
+    width: 65%;
+}
+
+.before-box{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.container2{
+    width: 60%;
+    display: flex;
+    align-content: start;
+    
+    justify-content: center;
+}
+
+.firts{
+    width: 80%;
+}
+.toto{
+    position: absolute;
+    right: 15.7%;
+}
+
+.toto1{
+    position: absolute;
+    top: 80.5%;
+    right: 41.3%;
+}
+.toto2{
+    position: absolute;
+    top:56.8%
+}
+.toto3{
+    position: absolute;
+    top: 56.8%;
+    right: 15.7%;
+}
+
+.toto4{
+    position: absolute;
+    top: 765px;
+    right: 15.7%;
+}
+.marca{
+    position: absolute;
+}
+@media screen and (max-width:600px) {
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
+    .firts{
+        width: 100%;
+    }
+    .toto{
+        position: absolute;
+        width: 56%;
+        right: 11%;
+    }
+    
+    .toto1{
+        position: relative;
+        top: 25.0%;
+        right: 30.8%;
+        width: 30%;
+    }
+    .toto2{
+        position: relative;
+        width: 30%;
+        top:25%;
+        right:  30.5%;
+    }
+    .toto3{
+        position: relative;
+        width: 30%;
+        top: -24.5%;
+        left: 61.5%;
+    }
+    .marca{
+        width: 40%;
+        left: 30%;
+    }
+    .container2{
+        width: 100%;
+        align-content: start;
+    
+        justify-content: start;
+    }
+    
+    h1{
+        font-size: 300%;
+    }
+
+    .letras{
+        font-size: 25px;
+    }
+
+    .toto4{
+        position: relative;
+        top: 0%;
+        right: -30.6%;
+        width: 30%;
+    }
+    .toto5{
+        width: 30%;
+    }
+    .toto6{
+
+        width: 30%;
+    }
+    .toto7{
+        width: 30%;
+    }
+    .toto8{
+        width: 30%;
+
+    }
+}
